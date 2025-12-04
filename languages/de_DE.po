@@ -1,0 +1,70 @@
+# Translation for Curatescape SEO plugin for Omeka Classic
+# Copyright (C) 2025 Center for Public History + Digital Humanities at Cleveland State University
+# This file is distributed under the same license as the plugin package.
+# Center for Public History + Digital Humanities at Cleveland State University <digitalhumanities@csuohio.edu>, 2025.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Curatescape SEO 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-12-02 11:12-0500\n"
+"PO-Revision-Date: 2025-12-04 HO:MI+ZONE\n"
+"Last-Translator: Center for Public History + Digital Humanities at Cleveland State University <digitalhumanities@csuohio.edu>\n"
+"Language-Team: Center for Public History + Digital Humanities at Cleveland State University <digitalhumanities@csuohio.edu>\n"
+"Language: de_DE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: CuratescapeSeoPlugin.php:44 CuratescapeSeoPlugin.php:44
+#, php-format
+msgid ""
+"To learn about Curatescape mobile apps for iOS and Android, visit %1s. For "
+"support, create an account at %2s."
+msgstr ""
+"Um mehr über Curatescape Mobile-Apps für iOS und Android zu erfahren, "
+"besuchen Sie %1s. Für Support erstellen Sie bitte ein Konto bei %2s."
+
+#: CuratescapeSeoPlugin.php:46 CuratescapeSeoPlugin.php:46
+msgid "Preview Settings"
+msgstr "Vorschau-Einstellungen"
+
+#: CuratescapeSeoPlugin.php:47 CuratescapeSeoPlugin.php:47
+msgid ""
+"Use the following options to control the way your content is represented on "
+"search engines and social media websites. Refer to the <a target=\"_blank\" "
+"href=\"https://omeka.org/classic/plugins/CuratescapeSeo/\">plugin "
+"documentation</a> for additional details and frequently asked questions."
+msgstr ""
+"Verwenden Sie die folgenden Optionen, um zu steuern, wie Ihre Inhalte in "
+"Suchmaschinen und auf Social-Media-Websites dargestellt werden. Weitere "
+"Details und häufig gestellte Fragen finden Sie in der <a target=\"_blank\" "
+"href=\"https://omeka.org/classic/plugins/CuratescapeSeo/\">Plugin-"
+"Dokumentation</a>."
+
+#: CuratescapeSeoPlugin.php:49 CuratescapeSeoPlugin.php:49
+msgid ""
+"Enter the URL for a PNG or JPG file to serve as the fallback image to "
+"represent your site on social media and search engine results. Used only "
+"when there is not a content-related image available (for example, on the "
+"homepage and browse pages). Recommended dimensions: 1200px × 630px (1.91:1). "
+"Developers may refer to <a target=\"_blank\" href=\"https://omeka.org/"
+"classic/plugins/CuratescapeSeo/\">plugin documentation</a> for alternate "
+"theme-based method."
+msgstr ""
+"Geben Sie die URL für eine PNG- oder JPG-Datei ein, die als Ersatzbild "
+"dient, um Ihre Website in sozialen Medien und Suchmaschinenergebnissen "
+"darzustellen. Wird nur verwendet, wenn kein inhaltsbezogenes Bild verfügbar "
+"ist (z. B. auf der Startseite und den Durchsuchen-Seiten). Empfohlene "
+"Abmessungen: 1200px × 630px (1,91:1). Entwickler können die <a target="
+"\"_blank\" href=\"https://omeka.org/classic/plugins/CuratescapeSeo/\">Plugin-"
+"Dokumentation</a> für eine alternative theme-basierte Methode konsultieren."
+
+#: functions.php:77 functions.php:77
+msgid "Map"
+msgstr "Karte"
+
+#: functions.php:82 functions.php:82
+msgid "Preview text unavailable"
+msgstr "Vorschautext nicht verfügbar"

@@ -19,7 +19,7 @@ class CuratescapeSeoPlugin extends Omeka_Plugin_AbstractPlugin{
 			is_current_url('/admin/plugins/config?name=CuratescapeSeo') ||
 			is_current_url('/admin/plugins/config/name/CuratescapeSeo')
 		){
-			queue_css_file('config', 'all', false, 'css', get_plugin_ini('CuratescapeSEO', 'version'));
+			queue_css_file('seo-config', 'all', false, 'css', get_plugin_ini('CuratescapeSEO', 'version'));
 		}
 	}
 	public function hookInitialize()

@@ -31,7 +31,11 @@ function validateMetaImage($url = null)
 {
 	if(!$url) return '';
 	$url = html_escape(filter_var($url, FILTER_SANITIZE_URL));
-	if(substr($url,0,4) !== "http" || !allowedExtensionImg($url)){
+	// Check image extension (use Curatescape function if available, otherwise inline check)
+	$isValidExtension = function_exists('allowedExtensionImg')
+		? allowedExtensionImg($url)
+		: in_array(strtolower(pathinfo($url, PATHINFO_EXTENSION)), ['jpg','jpeg','png','webp']);
+	if(substr($url,0,4) !== "http" || !$isValidExtension){
 		return '';
 	}
 	if(filter_var($url, FILTER_VALIDATE_URL, FILTER_FLAG_PATH_REQUIRED) === FALSE) {

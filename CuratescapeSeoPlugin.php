@@ -48,7 +48,7 @@ class CuratescapeSeoPlugin extends Omeka_Plugin_AbstractPlugin{
 			<!-- Meta Image -->
 			<?php echo configFormText('curatescapeseo_meta_image', 'Meta Image', __('Enter the URL for a PNG or JPG file to serve as the fallback image to represent your site on social media and search engine results. Used only when there is not a content-related image available (for example, on the homepage and browse pages). Recommended dimensions: 1200px × 630px (1.91:1). Developers may refer to <a target="_blank" href="https://omeka.org/classic/plugins/CuratescapeSeo/">plugin documentation</a> for alternate theme-based method.'), 'Example: '.WEB_ROOT.'/meta.png');?>
 		</fieldset>
-		<?
+		<?php
 	}
 	public function hookPublicHead($args)
 	{
